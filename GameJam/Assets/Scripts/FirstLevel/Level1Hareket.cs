@@ -34,7 +34,7 @@ public class Level1Hareket : MonoBehaviour
     }
     
            
-    void OnCollisionEnter2D(Collision2D donus)
+    void OnTriggerEnter2D(Collider2D donus)
     {
          if (donus.gameObject.CompareTag("Donus"))
         {
