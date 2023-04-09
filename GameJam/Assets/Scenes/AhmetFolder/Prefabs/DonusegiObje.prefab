@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3624363505344570242}
   - component: {fileID: 7621589782009097943}
   - component: {fileID: -4630463416773709309}
-  - component: {fileID: -926876975139102517}
   m_Layer: 0
   m_Name: DonusegiObje
   m_TagString: Player
@@ -168,22 +167,6 @@ MonoBehaviour:
     m_Bits: 64
   jumpingPower: 20
   isGrounded: 0
---- !u!114 &-926876975139102517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711894492557278896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73a60588ed0a2843922bc6a067fa661, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dashingTime: 0.35
-  dashingPower: 24
-  dashingCooldown: 1
-  dashRb: {fileID: -2226488501546221632}
 --- !u!1 &4019321049407777814
 GameObject:
   m_ObjectHideFlags: 0
