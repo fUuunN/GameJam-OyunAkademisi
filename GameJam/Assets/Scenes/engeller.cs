@@ -18,7 +18,7 @@ public class engeller : MonoBehaviour
     }
     public void ResLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }

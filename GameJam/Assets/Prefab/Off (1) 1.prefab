@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 293893622627935784}
   - component: {fileID: 7149352209064576394}
   - component: {fileID: 4504200973400120780}
+  - component: {fileID: 1299900304}
+  - component: {fileID: 1211624209}
   m_Layer: 0
   m_Name: Off (1) 1
-  m_TagString: Engel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,3 +121,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8815c8e600b0574c9ff6de0de93f5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1299900304
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343961942210037757}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.19
+--- !u!58 &1211624209
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343961942210037757}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.19
