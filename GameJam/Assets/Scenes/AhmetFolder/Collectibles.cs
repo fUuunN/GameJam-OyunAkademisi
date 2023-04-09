@@ -10,9 +10,9 @@ public class Collectibles : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Collectible"))
         {
+            
             score++;
-            Debug.Log("Toplandý");
-            text.text = "Puan : " + score;
+            text.text = "Score : " + score;
             Destroy(collision.gameObject);
         }
     }
