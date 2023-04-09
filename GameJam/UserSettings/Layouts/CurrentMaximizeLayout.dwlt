@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 11026
+  controlID: 12310
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 10976
+  controlID: 12311
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 10953
+  controlID: 12312
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 557
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c0cdffffa8deffffcedfffffa2e1ffff1ce2ffff4ce2ffff78e2ffffaae2ffffd6e2ffff06e3ffff46e3ffff92f1ffff66f3ffff72f4ffff68f5ffff1efaffff2afbffff525f0000948600009e880000be880000228a0000428a0000d68d0000f68d0000
+      m_ExpandedIDs: 20c4ffffc0cdffffa8deffffcedfffffa2e1ffff1ce2ffff4ce2ffff78e2ffffaae2ffffd6e2ffff06e3ffff46e3ffff92f1ffff66f3ffff72f4ffff68f5ffff1efaffff2afbffff525f0000948600009e880000be880000228a0000428a0000d68d0000f68d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -709,21 +709,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/AhmetFolder
+    - Assets/Scenes/AhmetFolder/Sahne
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 81
   m_LastFolders:
-  - Assets/Scenes/AhmetFolder
+  - Assets/Scenes/AhmetFolder/Sahne
   m_LastFoldersGridSize: 81
   m_LastProjectPath: C:\Users\karam\OneDrive\Belgeler\GitHub\GameJam-OyunAkademisi\GameJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 865e0000
-    m_LastClickedID: 24198
+    scrollPos: {x: 0, y: 123}
+    m_SelectedIDs: ba5e0000
+    m_LastClickedID: 24250
     m_ExpandedIDs: 000000007a5e00007c5e00007e5e0000805e0000825e0000845e0000865e0000885e00008a5e00008c5e00008e5e0000905e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -777,8 +777,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f68d0000
-    m_LastClickedInstanceID: 36342
+    m_SelectedInstanceIDs: 986a0000
+    m_LastClickedInstanceID: 27288
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000909f00000c9f00008c5e0000d66d0000767f0000
     m_RenameOverlay:
@@ -898,7 +898,7 @@ MonoBehaviour:
     m_CachedPref: 203
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 36342
+  m_LastInspectedObjectInstanceID: 27288
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
