@@ -5,12 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class StaticEnemies : MonoBehaviour
 {
+    int score;
+    private void Awake()
+    {
+        score = Collectibles.score;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Düþman");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Collectibles.score = score;
         }
     }
 }

@@ -7,6 +7,13 @@ TagManager:
   - Ground
   - Donus
   - Collectible
+<<<<<<< HEAD
+  - zemin
+  - engel
+  - Engel
+=======
+  - engel
+>>>>>>> fe09d11cde2e80f9f00b4adf22db36b544ab42e1
   layers:
   - Default
   - TransparentFX
