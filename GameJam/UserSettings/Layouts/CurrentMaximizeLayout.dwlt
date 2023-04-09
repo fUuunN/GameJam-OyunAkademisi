@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105391
+  controlID: 120909
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 105392
+  controlID: 120910
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 105393
+  controlID: 120881
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aa2dfeffce2ffefffa32feff2434feffa839feff903dfeff923efefffe3efeff943ffeffe63ffeffa643feff5044feffaa45feff565dfeffea5efeffb662feff0865feffdc66feff3479feffa281feffa887feff128dfeff4e94feff4c95feff5096feff429efeffc6a0feffc6a1feff80bffeff6ac1feff48c5feffb8c8feffa2cdfeff8631ffff5632ffff8c3cffff3846fffff44bffff404dfffff050ffff3e51ffff3c53ffff9468ffffdc68fffff49affff249cffff86b6ffffceb6ffff44b9ffffb0b9fffffcbeffff2cbfffff9ec0ffff20c4ffffc0cdffffa8deffffcedfffffa2e1ffff1ce2ffff4ce2ffff78e2ffffaae2ffffd6e2ffff06e3ffff46e3ffff92f1ffff66f3ffff72f4ffff68f5ffff1efaffff2afbffff525f0000948600009e880000be880000228a0000428a0000d68d0000f68d000086a000004ce100007a110100701301006014010078190100462101007c230100cc230100e4230100de250100e2280100fa2801008e2d0100783a01004e580100a65b0100
+      m_ExpandedIDs: d201feff0406feff640cfefff40cfeff2c2afeffaa2dfeffce2ffefffa32feff2434feffa839feff903dfeff923efefffe3efeff943ffeffe63ffeffa643feff5044feffaa45feff565dfeffea5efeffb662feff0865feffdc66feff3479feffa281feffa887feff128dfeff4e94feff4c95feff5096feff429efeffc6a0feffc6a1feff80bffeff6ac1feff48c5feffb8c8feffa2cdfeff8631ffff5632ffff8c3cffff3846fffff44bffff404dfffff050ffff3e51ffff3c53ffff9468ffffdc68fffff49affff249cffff86b6ffffceb6ffff44b9ffffb0b9fffffcbeffff2cbfffff9ec0ffff20c4ffffc0cdffffa8deffffcedfffffa2e1ffff1ce2ffff4ce2ffff78e2ffffaae2ffffd6e2ffff06e3ffff46e3ffff92f1ffff66f3ffff72f4ffff68f5ffff1efaffff2afbffff525f0000948600009e880000be880000228a0000428a0000d68d0000f68d000086a000004ce100007a110100701301006014010078190100462101007c230100cc230100e4230100de250100e2280100fa2801008e2d0100783a01004e580100a65b0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -560,9 +560,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.41582507, y: -0.20553747, z: -9.95474}
+    m_Target: {x: -0.41308293, y: 0.22493477, z: -9.981675}
     speed: 2
-    m_Value: {x: -0.41582507, y: -0.20553747, z: -9.95474}
+    m_Value: {x: -0.41308293, y: 0.22493477, z: -9.981675}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,9 +613,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.044781
+    m_Target: 6.7481017
     speed: 2
-    m_Value: 5.044781
+    m_Value: 6.7481017
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -659,8 +659,8 @@ MonoBehaviour:
     y: 557
     width: 1466
     height: 382
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -709,21 +709,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/AhmetFolder/Sahne
+    - Assets/Scenes/AhmetFolder/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets/Scenes/AhmetFolder/Sahne
+  - Assets/Scenes/AhmetFolder/Prefabs
   m_LastFoldersGridSize: 72
   m_LastProjectPath: C:\Users\karam\OneDrive\Belgeler\GitHub\GameJam-OyunAkademisi\GameJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 139}
-    m_SelectedIDs: ba5e0000
-    m_LastClickedID: 24250
+    scrollPos: {x: 0, y: 123}
+    m_SelectedIDs: b85e0000
+    m_LastClickedID: 24248
     m_ExpandedIDs: 000000007a5e00007c5e00007e5e0000805e0000825e0000845e0000865e0000885e00008a5e00008c5e00008e5e0000905e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -777,8 +777,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 986a0000
-    m_LastClickedInstanceID: 27288
+    m_SelectedInstanceIDs: fafefdff
+    m_LastClickedInstanceID: -131334
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000909f00000c9f00008c5e0000d66d0000767f0000
     m_RenameOverlay:
@@ -856,8 +856,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -898,7 +898,7 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 27288
+  m_LastInspectedObjectInstanceID: -131334
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

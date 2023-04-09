@@ -7,12 +7,19 @@ public class BasicMovement : MonoBehaviour
     public float speed;
     float hori;
     float verti;
-
+    Rigidbody2D rb;
+    float movementInputs = 0;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     // Update is called once per frame
     void Update()
     {
-        hori = Input.GetAxisRaw("Horizontal");
-        verti = Input.GetAxisRaw("Vertical");
-        transform.Translate(hori * speed * Time.deltaTime, verti * speed * Time.deltaTime, transform.position.z);
+        movementInputs = Input.GetAxisRaw("Horizontal");
+    }
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(movementInputs * speed, rb.velocity.y);
     }
 }
