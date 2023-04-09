@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class scr : MonoBehaviour
+public class SwingController : MonoBehaviour
 {
     public HingeJoint2D hingeJoint;
-    public float swingSpeed = 50000f;
+    public float swingSpeed = 50f;
 
     void Update()
     {

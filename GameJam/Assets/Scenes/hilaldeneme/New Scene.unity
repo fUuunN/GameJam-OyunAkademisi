@@ -152,9 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df19ca6296d43f4d8a51a8af1cafa8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hingeJoint: {fileID: 0}
-  swingSpeed: 10
-  swingPower: 100
 --- !u!4 &574503495
 Transform:
   m_ObjectHideFlags: 0
@@ -1326,8 +1323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b06ccfed72276245be86f1e005b9881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hingeJoint: {fileID: 0}
-  swingSpeed: 100000
 --- !u!1 &1517041993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1419,7 @@ GameObject:
   - component: {fileID: 1973937961}
   - component: {fileID: 1973937959}
   - component: {fileID: 1973937960}
+  - component: {fileID: 1973937963}
   m_Layer: 0
   m_Name: zincirbaslangic
   m_TagString: Untagged
@@ -1543,6 +1539,20 @@ Transform:
   m_Father: {fileID: 594210627}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1973937963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973937958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae4af5cf063a9746aa1c8d9ccd2172f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hingeJoint: {fileID: 1435443141}
+  swingSpeed: 200
 --- !u!1 &2055677692
 GameObject:
   m_ObjectHideFlags: 0
