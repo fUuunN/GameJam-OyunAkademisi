@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Next : MonoBehaviour
 {
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Collider içi");
