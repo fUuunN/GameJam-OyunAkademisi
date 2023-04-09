@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 public class Collectibles : MonoBehaviour
 {
-    static int score;
+    public static int score;
     public TMP_Text text;
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,7 +14,6 @@ public class Collectibles : MonoBehaviour
             Debug.Log("Toplandý");
             text.text = "Puan : " + score;
             Destroy(collision.gameObject);
-            
         }
     }
 }

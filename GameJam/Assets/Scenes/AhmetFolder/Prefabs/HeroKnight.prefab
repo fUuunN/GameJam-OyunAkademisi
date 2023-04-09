@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2563518817770203244}
   - component: {fileID: 2563518817770203247}
   - component: {fileID: 2563518817770203245}
+  - component: {fileID: -1102673754880720979}
   m_Layer: 0
   m_Name: HeroKnight
   m_TagString: Player
@@ -228,6 +229,19 @@ MonoBehaviour:
   dashingPower: 24
   dashingCooldown: 1
   dashRb: {fileID: 2381945155985628237}
+--- !u!114 &-1102673754880720979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781274406712911224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2193a23a4329720459ba017eef5444a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
 --- !u!1 &2306702275311641343
 GameObject:
   m_ObjectHideFlags: 0
