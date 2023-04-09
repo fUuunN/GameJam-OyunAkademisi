@@ -483,7 +483,7 @@ Transform:
   m_Children:
   - {fileID: 1272917806}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1272917805
 GameObject:
@@ -496,7 +496,8 @@ GameObject:
   - component: {fileID: 1272917806}
   - component: {fileID: 1272917808}
   - component: {fileID: 1272917807}
-  m_Layer: 0
+  - component: {fileID: 1272917809}
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -556,8 +557,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 536699935
-  m_SortingLayer: 3
+  m_SortingLayerID: 834636285
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -1305,6 +1306,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1272917809
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272917805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
 --- !u!1001 &1342545453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1314,7 +1331,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8596334140869662849, guid: 3f24ce09c97a73b4cafa64d687acb8f1, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8596334140869662849, guid: 3f24ce09c97a73b4cafa64d687acb8f1, type: 3}
       propertyPath: m_LocalPosition.x

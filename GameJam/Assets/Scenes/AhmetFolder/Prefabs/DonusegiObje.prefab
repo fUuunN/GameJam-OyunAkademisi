@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8277340657108512493}
   - component: {fileID: -2226488501546221632}
   - component: {fileID: 3624363505344570242}
-  - component: {fileID: 7621589782009097943}
   - component: {fileID: -4630463416773709309}
   - component: {fileID: 3733848612095599826}
+  - component: {fileID: 273972148715338664}
   m_Layer: 0
   m_Name: DonusegiObje
   m_TagString: Player
@@ -137,19 +137,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7621589782009097943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711894492557278896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c375f2e9ed959694cb54a04257420cb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &-4630463416773709309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +168,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
+--- !u!114 &273972148715338664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711894492557278896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4013ce89e40ecf14f98f7f72a17c22ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &4019321049407777814
 GameObject:
   m_ObjectHideFlags: 0
