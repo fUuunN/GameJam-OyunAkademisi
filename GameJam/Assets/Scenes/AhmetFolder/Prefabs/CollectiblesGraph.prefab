@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 5131844934743508440}
   - component: {fileID: 4350646624479137180}
   - component: {fileID: 8470546746663509277}
-  - component: {fileID: 2286453908529287597}
   m_Layer: 0
   m_Name: CollectiblesGraph
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,15 +101,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.22
---- !u!114 &2286453908529287597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2279879456560374341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2193a23a4329720459ba017eef5444a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
