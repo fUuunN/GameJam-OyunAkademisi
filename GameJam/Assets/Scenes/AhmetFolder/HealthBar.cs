@@ -7,18 +7,16 @@ public class HealthBar : MonoBehaviour
 {
     public Image greenBar;
     public float health;
-    //float bar
     // Start is called before the first frame update
     void Start()
     {
-        health = (Collectibles.score)*10;
-       // greenBar.transform.scale.x
+        health = (float)(Collectibles.score)*10;   
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        greenBar.rectTransform.localScale = new Vector3(health / 100f, 1f, 1f);
     }
 
     void OnTriggerEnter2D(Collider2D engel)
