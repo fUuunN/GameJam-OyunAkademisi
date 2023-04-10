@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/start.unity
     guid: 2e82439c25759494f8c5d2345df4b354
-  - enabled: 0
-    path: Assets/Pixel Adventure 1/Scenes/Demo.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 7e83bd2d8ef54a2418fcc768241c0e5b
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 043e88afe1d6d4a46bcace6c679aa1ca
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: f13452d0342650f498097f77b33cb01d
   - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: a9bace77b7e385948a49011fe04a49b0

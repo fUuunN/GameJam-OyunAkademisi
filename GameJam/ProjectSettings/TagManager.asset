@@ -5,18 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Donus
+  - Engel
   - Collectible
-  - zemin
-  - engel
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 3
+  - 
   - Water
   - UI
-  - Ground
+  - 
   - 
   - 
   - 
@@ -47,14 +45,11 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: New Layer 1
-    uniqueID: 3768836339
+    uniqueID: 3546427315
     locked: 0
   - name: New Layer 2
-    uniqueID: 834636285
+    uniqueID: 1402576279
     locked: 0
   - name: New Layer 3
-    uniqueID: 536699935
-    locked: 0
-  - name: New Layer 4
-    uniqueID: 3091249983
+    uniqueID: 2612321893
     locked: 0
