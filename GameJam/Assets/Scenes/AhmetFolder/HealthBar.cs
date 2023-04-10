@@ -7,10 +7,13 @@ public class HealthBar : MonoBehaviour
 {
     public Image greenBar;
     public float health;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         health = (float)(Collectibles.score)*10;   
+
+        anim=GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,6 +28,12 @@ public class HealthBar : MonoBehaviour
         {
            Debug.Log("carptin");
            health-=10;
+           anim.SetTrigger("Hurt");
+                
+                if(health==0)
+                {
+                    anim.SetBool("Death", true);
+                }
         } 
     } 
 }
