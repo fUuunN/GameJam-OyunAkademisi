@@ -7,6 +7,8 @@ TagManager:
   - engel
   - Collectible
   - Enemy
+  - Ground
+  - Engel
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Enemy
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

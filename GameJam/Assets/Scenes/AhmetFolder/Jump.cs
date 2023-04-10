@@ -49,7 +49,7 @@ public class Jump : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Ground"))
         {
-            rb.gravityScale = 10f;
+            rb.gravityScale = 5f;
         }
     }
 }
