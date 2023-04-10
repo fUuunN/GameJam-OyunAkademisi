@@ -4,24 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
-  - Donus
+  - engel
   - Collectible
-<<<<<<< HEAD
-  - zemin
-  - engel
-  - Engel
-=======
-  - engel
->>>>>>> fe09d11cde2e80f9f00b4adf22db36b544ab42e1
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 3
+  - Enemy
   - Water
   - UI
-  - Ground
+  - 
   - 
   - 
   - 
@@ -50,13 +43,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer 1
-    uniqueID: 3768836339
-    locked: 0
-  - name: New Layer 2
-    uniqueID: 834636285
-    locked: 0
-  - name: New Layer 3
-    uniqueID: 536699935
     locked: 0
