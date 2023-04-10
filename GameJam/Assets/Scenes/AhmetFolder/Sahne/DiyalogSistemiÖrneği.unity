@@ -251,8 +251,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Merhaba ben Volkan Konak
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -587.43805, y: -87.64958, z: -591.168, w: -100.70372}
+  m_margin: {x: -435.4828, y: -69.55967, z: -437.40363, w: -84.42278}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -482,7 +482,7 @@ MonoBehaviour:
   lines:
   - Alnuma yazdi kader silemedum.
   - "A\u011Fladum a\u011Fladum hi\xE7 g\xFClemedum."
-  textSpeed: 0.3
+  textSpeed: 0.1
   textComponent: {fileID: 567795325}
 --- !u!114 &923421960
 MonoBehaviour:
@@ -504,8 +504,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1652991646, guid: cc4073c90474bd64ba820f418e7f33b3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
