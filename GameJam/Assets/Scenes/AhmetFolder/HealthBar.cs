@@ -33,7 +33,7 @@ public class HealthBar : MonoBehaviour
             {
                 Debug.Log("Canin bitti.");
                 anim.SetBool("dead", true);
-                Destroy(gameObject, 1.5f);
+                Destroy(gameObject, 5f);
                 return;
             }              
         } 
