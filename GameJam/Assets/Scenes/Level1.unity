@@ -1540,7 +1540,7 @@ MonoBehaviour:
   - Selam lunity akademiye Hos Geldin!
   - "Bu gun seninle sifirdan bir oyun nas\u0131l yapilir onu ogrenece\u011Fiz.."
   - "\u0130lk basta objemizi sag ve sola hareket ettirmekle baslayalim.."
-  textSpeed: 0.1
+  textSpeed: 0.05
   textComponent: {fileID: 2100150679}
 --- !u!114 &1472555401
 MonoBehaviour:
