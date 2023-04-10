@@ -6497,18 +6497,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1233626966, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 1823011938, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
-      propertyPath: m_Size.y
-      value: 0.9597901
-      objectReference: {fileID: 0}
-    - target: {fileID: 1823011938, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.08431816
-      objectReference: {fileID: 0}
     - target: {fileID: 2130377843, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
       propertyPath: text
       value: 
@@ -6516,14 +6504,6 @@ PrefabInstance:
     - target: {fileID: 206478342610300404, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
       propertyPath: m_Name
       value: Knight
-      objectReference: {fileID: 0}
-    - target: {fileID: 206478342610300406, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 206478342610300406, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1571630401
       objectReference: {fileID: 0}
     - target: {fileID: 206478342610300407, guid: ce6f1ef21fce43843937fe2734e2d6e0, type: 3}
       propertyPath: m_RootOrder
