@@ -2336,6 +2336,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8717150946181382801, guid: f3a7917c732ffea42a774b4889ae4c68, type: 3}
+      propertyPath: donusecegiObje
+      value: 
+      objectReference: {fileID: 4481366478145955919, guid: 1fd7fd9df5e7c4244a5b8af196d8b5b5, type: 3}
     - target: {fileID: 8717150946181382802, guid: f3a7917c732ffea42a774b4889ae4c68, type: 3}
       propertyPath: m_RootOrder
       value: 2
