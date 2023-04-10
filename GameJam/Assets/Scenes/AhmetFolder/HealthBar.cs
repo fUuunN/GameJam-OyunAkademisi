@@ -11,7 +11,7 @@ public class HealthBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = (float)(Collectibles.score)*10;   
+        //health = (float)(Collectibles.score)*10;   
 
         anim=GetComponent<Animator>();
     }
@@ -25,15 +25,17 @@ public class HealthBar : MonoBehaviour
     void OnTriggerEnter2D(Collider2D engel)
     {
          if (engel.gameObject.CompareTag("engel"))
-        {
+        {  
            Debug.Log("carptin");
            health-=10;
-           anim.SetTrigger("Hurt");
-                
-                if(health==0)
-                {
-                    anim.SetBool("Death", true);
-                }
+           anim.SetTrigger("hurt"); 
+           if(health<=0)
+            {
+                Debug.Log("Canin bitti.");
+                anim.SetBool("dead", true);
+                Destroy(gameObject, 1.5f);
+                return;
+            }              
         } 
     } 
 }
